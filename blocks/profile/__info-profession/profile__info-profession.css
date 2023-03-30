@@ -1,0 +1,16 @@
+.profile__info-profession {
+  margin: 0;
+  max-width: 336px;
+  min-height: 18px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21.78px;
+}
+
+@media screen and (max-width: 768px) {
+  .profile__info-profession  {
+    text-align: center;
+    font-size: 14px;
+    line-height: 26.94px;
+  }
+}

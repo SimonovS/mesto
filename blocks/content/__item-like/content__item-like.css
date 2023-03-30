@@ -1,0 +1,7 @@
+.content__item-like {
+  background-image: url(../../../images/content__like.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 25px;
+  width: 22px;
+}

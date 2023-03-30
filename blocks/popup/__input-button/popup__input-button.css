@@ -1,0 +1,25 @@
+.popup__input-button {
+  margin: 0 auto;
+  margin-top: 45px;
+  background: #000;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 400;
+  padding: 14px 130px 14px 130px;
+  border: none;
+  font-family: 'Inter';
+  cursor: pointer;
+}
+
+@media screen and (max-width: 320px) {
+  .popup__input-button {
+  font-size: 14px;
+  margin-top: 46px;
+  padding: 14px 84px 13px 84px;
+  }
+}
+
+
+.popup__input-button:hover {
+  opacity: 0.8;
+}
