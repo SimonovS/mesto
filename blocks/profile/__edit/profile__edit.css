@@ -1,14 +1,12 @@
 .profile__edit {
   width: 24px;
   height: 24px;
-  border: 1px solid;
-  background-image: url(../../../images/profile__edit.png);
+  background: none;
+  border: 1px solid #fff;
+  background-image: url(../../../images/profile__edit.svg);
   background-repeat: no-repeat;
   background-size: 10px;
   background-position: center;
-  position: absolute;
-  right: -12px;
-  top: 38px;
   box-sizing: border-box;
   cursor: pointer;
 }
@@ -23,5 +21,5 @@
 }
 
 .profile__edit:hover {
-  filter: opacity(60%);
+  opacity: 0.5;
 }
